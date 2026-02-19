@@ -1,0 +1,81 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+h1{
+  text-align: center;
+}
+.information{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: large;
+    border-top: 2px;
+    border-color: black;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    
+}
+.information img {
+  width: 30vh;
+  height: auto;
+  margin-top: 2vh;
+  aspect-ratio: 1/1;
+}
+.info{
+    width: 20%;
+  height: 100%;
+  margin-top: 2vh;
+}
+.AboutMyself{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+   border-top: 2px;
+    border-color: black;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+  
+}
+.AboutMyself p{
+  margin-top: 2vh;
+}
+.skills{
+  display: flex;
+  flex-direction: column;
+   border-top: 2px;
+    border-color: black;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+footer{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+   border-top: 2px;
+    border-color: black;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+
+}
+
+footer img{
+  width: 10vh;
+  height: auto;
+  margin-top: 2vh;
+  aspect-ratio: 1/1;
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
